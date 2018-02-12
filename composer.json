@@ -1,0 +1,19 @@
+{
+    "name": "lpress/view",
+    "description": "The LaraPress View",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yousuf Hossain Shanto",
+            "email": "yousuf.hossain.shanto@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraPress\\View\\": "src/"
+        }
+    }
+}
